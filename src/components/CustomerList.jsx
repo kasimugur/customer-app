@@ -6,13 +6,10 @@ import { ContextPage } from "../context"
 export default function CustomerList() {
   const { customers} = useContext(ContextPage)
 
-  const deleteItem = (item) => {
-    console.log(item)
-  }
 
   return (
     <>
-    <ul>
+    <ul className="list-customer">
     {customers.map((customer) => (
       <CustomerItem key={customer.id} customer={customer} />
     ))}
