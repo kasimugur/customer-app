@@ -1,0 +1,9 @@
+card-item{
+ display: flex;
+ flex-direction: column;
+ background-color: rgb(255, 0, 0);
+  & .img-avatar{
+    width: 30px;
+    height: 30px;
+  }
+}

@@ -1,0 +1,9 @@
+card-item {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 0, 0);
+}
+card-item .img-avatar {
+  width: 30px;
+  height: 30px;
+}/*# sourceMappingURL=customerItem.css.map */
