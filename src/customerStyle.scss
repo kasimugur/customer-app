@@ -1,12 +1,11 @@
 .list-customer {
   min-width: 200px;
   max-width: 300px;
-  background: red;
   min-height: 250px;
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: center !important;
-  align-items: center !important;
+  display: flex ;
+  flex-direction: column ;
+  justify-content: center ;
+  align-items: center ;
   text-align: center;
 }
 
@@ -21,17 +20,19 @@
   border-radius: 25px;
   border: 0.5px solid #fff;
   margin-bottom: 3px;
-
-  button{
+margin-top: 9px;
+  button {
     margin-right: 15px;
     padding: 5px;
     border-radius: 7cap;
-    background:red;
+    background: red;
     border: 1px solid #000;
   }
-  .Item-custmr {
 
+  .Item-custmr {
+margin-top: 5px;
     display: flex;
+    align-items: center;
 
     .img-avatar {
       display: flex;
