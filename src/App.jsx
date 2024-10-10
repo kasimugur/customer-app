@@ -3,8 +3,8 @@ import './App.css'
 import CustomerForm from './components/CustomerForm'
 import CustomerList from './components/CustomerList'
 import { ContextPage } from './context'
-import './css/customerStyle.css'
-import './css/customerForm.css'
+import './customerItem.scss'
+import './customerStyle.scss'
 function App() {
 
   const [customerName, setCustomerName] = useState('')

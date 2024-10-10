@@ -5,7 +5,7 @@ export default function CustomerForm() {
   const { setCustomerName,setCustomers, customerName, customers } = useContext(ContextPage)
   const addNewItem = (newCustomers) => {
     if (!customerName) {
-      alert('bir şeyler giriniZ')
+      alert('add an new customer')
     }
     setCustomers([newCustomers, ...customers])
   }
